@@ -14,7 +14,6 @@ class PublishedPostManager(models.Manager):
 
 
 class Post(models.Model):
-
     objects = models.Manager()
     published = PublishedPostManager()
     """
